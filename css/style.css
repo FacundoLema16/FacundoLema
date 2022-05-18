@@ -1,0 +1,360 @@
+@import url('https://fonts.googleapis.com/css2?family=Courgette&family=Lora:wght@400;500;600;700&family=Macondo&family=Permanent+Marker&display=swap');
+
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+
+}
+
+
+html,
+body{
+    font-family: 'Permanent Marker', cursive;
+    background-color: rgba(145, 103, 49, 0.596);
+    color: rgba(32, 32, 32, 0.808);
+}
+
+
+html{
+    scroll-behavior: smooth;
+}
+
+h1,
+h4,
+p{
+    line-height: 1.4rem;
+}
+
+p{
+    font-size: 1rem;
+}
+
+
+
+.container{
+    margin: auto;
+    max-width: 1300px;
+    overflow: auto;
+    padding: 0 10px;
+}
+
+.btn{
+    display: inline-block;
+    font-size: 15px;
+    padding: 10px 3px;
+    margin-left: 10%;
+}
+.btn-red{
+    background-color: black;
+    border-radius: 5px;
+    text-decoration: none;
+    color: rgba(145, 103, 49, 0.596);
+    text-align: center;
+}
+
+
+
+form label{
+    display: inline-block;
+    margin-bottom: 0.5rem;
+}
+form .form-grupo{
+    margin-bottom: 1rem;
+}
+form .form-control{
+    display: block;
+    width: 100%;
+    padding: .375rem .7rem;
+    font-size: 1rem;
+}
+
+
+/*Navegador*/
+
+#navbar{
+    overflow: auto;
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+
+#navbar img{
+    max-width: 115px;
+    max-height: 115px;
+    margin-top: -0.1%;
+}
+#inicio img{
+    float: right;
+    max-width: 400px;
+    max-height: 400px;
+    margin-right: 20%;
+    margin-bottom: 15%;
+    margin-top: -2%;
+}
+#inicio video{
+    float: right;
+    padding: 30px;
+    width: 60%;
+    margin-top: -100px;
+
+}
+
+
+#navbar ul{
+    list-style: none;
+    float: right;
+}
+
+#navbar ul li{
+    float: left;
+}
+
+#navbar ul li a{
+    display: block;
+    padding: 20px;
+    text-align: center;
+    text-decoration: none;
+    color: black;
+}
+
+#navbar ul li a:hover{
+    background: rgb(114, 107, 103);
+}
+
+#inicio{
+    text-align:left;
+    padding-top: 100px;
+    padding-bottom: 100px;
+}
+
+#inicio p{
+    width: 50%;
+    padding-top: 40px;
+    padding-bottom: 40px;
+}
+
+#inicio a{
+    width: 100px;
+}
+.large{
+    font-size: 1.6rem;
+    text-decoration-line: underline;
+    text-decoration-style: solid; 
+    color: black;
+    margin-left: 1%;
+    animation-duration: 3s;
+    animation-name: animate;
+    animation-iteration-count: infinite;
+ 
+}
+.large1{
+    font-size: 1.6rem;
+    text-decoration-line: underline;
+    text-decoration-style: solid; 
+    color: black;
+    margin-left: 1%;
+    animation-duration: 3s;
+    animation-name: animate;
+    animation-iteration-count: infinite;
+}
+.large2{
+    font-size: 1.6rem;
+    text-decoration-line: underline;
+    text-decoration-style: solid; 
+    color: black;
+    margin-left: 1%;
+    animation-duration: 3s;
+    animation-name: animate;
+    animation-iteration-count: infinite;
+}
+
+#mainheader{
+    background-image: url(/img/UltimaPrueba3.jpeg);
+    background-repeat: no-repeat;
+    background-size: cover;
+   
+}
+
+@keyframes animate{
+    10% {
+        opacity: 0;
+    }
+
+    100%{
+        opacity: 1;
+    }
+}
+
+
+/*Patrocinio*/
+
+
+#patrocinio{
+background-image: linear-gradient(to right,
+#000, #808080);
+    padding-top: 70px;
+    padding-bottom: 400px;
+}
+
+.patrocinio-box{
+    float: left;
+    width: 32%;
+    text-align: center;
+
+}
+
+.patrocinio-box img{
+    height: 145px;
+    margin-top: 27%;
+}
+
+
+/*Fundadores*/
+
+
+#fundadores{
+    text-align: center;
+    padding-bottom: 100px;
+    margin-top: 30%;
+
+}
+#fundadores h4{
+    padding-bottom: 20px;
+}
+
+.fundadores-box{
+    float: left;
+    width: 33%;
+    padding: 50px;
+}
+
+.fundadores-box img{
+    width: 220px;
+    text-align: center;
+}
+
+#redes-fundadores{
+    display: block;
+
+}
+.REDES a{
+    color: #000;
+}
+/*Guia*/
+
+
+#guia{
+    padding-bottom: 50px;
+    margin-top: 40%
+}
+
+#guia p{
+    text-align: center;
+    padding-top: 100px;
+}
+#guia h3{
+    text-align: center;
+    
+}
+
+/*Soporte*/
+.form-titulo{
+    text-align: center;
+    font-size: 1.9rem;
+    margin-bottom: .4em;
+    color: rgba(145, 103, 49, 0.596);
+
+}
+.form-contenedor{
+    width: 100%;
+    display: grid;
+    gap: 1em;
+    grid-auto-columns: 100%;
+}
+.form{
+    background: black;
+    width: 90%;
+    max-width: 400px;
+    border-radius: 1em;
+    padding: 3.5em 1.5em;
+    margin: auto;
+    margin-top: 10%;
+
+}
+.form__input{
+    font-family: inherit;
+    font-size: 1rem;
+    padding: .8em 1em;
+    outline: none;
+    border: none;
+    border: 1px solid black;
+    border-radius: 0.2em;
+}
+
+.form__input--message{
+    resize: none;
+    padding: 1.8em 1em;
+    margin-bottom: .5em;
+}
+
+.form__cta{
+    font-family: inherit;
+    font-size: 1rem;
+    background-color: rgba(145, 103, 49, 0.596);
+    color: black;
+    border: none;
+    font-weight: 300;
+    padding: .7em 0;
+    border-radius: .2em;
+    cursor: pointer;
+
+}
+
+
+
+
+
+
+/*¿Que Somos?*/
+
+#quesomos{
+    text-align: center;
+    margin-top: 30%;
+}
+
+#quesomos p{
+    text-align: center;
+    margin-top: 10%;
+}
+
+
+/*Footer*/
+
+#mainfooter{
+    text-align: center;
+    padding: 30px;
+    background-image: url(/img/istockphoto-1128458526-170667a.jpg);
+}
+.redes-sociales{
+    float: right;
+    display: flex;
+    width: 120px;
+    height: 30px;   
+}
+
+.redes-sociales a{
+    margin: 0 5px;
+    line-height: 5px;
+    font-size: 30px;
+    color: rgb(2, 68, 99);
+    box-shadow: 0px 5px 5px 0px rgb(54, 53, .52);
+}
+
+.redes-sociales a:hover{
+    filter: blur(2px);
+}
+.redes-sociales a:hover{
+    transform: translateY(-3px) scale(1.05);
+    box-shadow: 0px 5px 5px 0px rgb(54, 53, .104);
+    filter: none;
+}
